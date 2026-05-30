@@ -13,3 +13,13 @@ function changePosition(){
 function showContact(){
     document.getElementById("Contact").innerHTML = "Call me at 0405351834"
 }
+
+function makeSmile(){
+    document.getElementById("profile").src='assets/profile_s.png'
+    window.alert("Im smiling")
+    
+}
+
+function write(){
+    document.write("hello")
+}
