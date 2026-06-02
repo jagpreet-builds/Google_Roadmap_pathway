@@ -6,20 +6,37 @@ console.log(myName);
 console.log(myRole);
 
 
+let position = document.getElementById("change_pos")
+
+position.addEventListener("click", changePosition)
+
 function changePosition(){
     document.getElementById("position").innerHTML = "Project Manager at Google"
 }
 
+let contact = document.getElementById("show_contact")
+
+contact.addEventListener("click", showContact)
+
 function showContact(){
-    document.getElementById("Contact").innerHTML = "Call me at 0405351834"
+    document.getElementById("Contact").textContent = "Email me at jag@test.com"
 }
+
+
+let smile = document.getElementById("smileBtn")
+
+smile.addEventListener("click", makeSmile)
 
 function makeSmile(){
     document.getElementById("profile").src='assets/profile_s.png'
-    window.alert("Im smiling")
-    
+
 }
 
-function write(){
-    document.write("hello")
+let Reset = document.getElementById("reset")
+
+Reset.addEventListener("click" , restart);
+
+function restart(){
+    location.reload();
+
 }
