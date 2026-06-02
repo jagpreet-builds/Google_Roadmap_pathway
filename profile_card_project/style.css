@@ -24,6 +24,23 @@ body{
     padding: 32px;
 }
 
+
+.card_body_light{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    max-width: max-content;
+    max-height: fit-content;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 32px;
+    color: #ffff;
+
+}
+
+
 h1{
     text-align: center;
     font-weight: 200;

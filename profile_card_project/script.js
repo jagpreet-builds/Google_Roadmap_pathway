@@ -40,3 +40,16 @@ function restart(){
     location.reload();
 
 }
+
+
+let dmode = document.getElementById("theme");
+let card = document.querySelector(".card_body");
+
+
+dmode.addEventListener("click", change_theme);
+
+function change_theme(){
+
+    card.classList.toggle("card_body_light")
+
+}
