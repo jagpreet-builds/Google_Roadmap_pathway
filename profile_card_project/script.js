@@ -19,7 +19,7 @@ let contact = document.getElementById("show_contact")
 contact.addEventListener("click", showContact)
 
 function showContact(){
-    document.getElementById("Contact").textContent = "Email me at jag@test.com"
+    document.getElementById("Contact").textContent = "Shayaan is a good boy"
 }
 
 
@@ -51,5 +51,15 @@ dmode.addEventListener("click", change_theme);
 function change_theme(){
 
     card.classList.toggle("card_body_light")
+
+    if (card.classList.contains("card_body_light")){
+        dmode.textContent = "Dark Mode";}
+
+    else{
+        dmode.textContent = "light mode";
+
+    }
+
+
 
 }
