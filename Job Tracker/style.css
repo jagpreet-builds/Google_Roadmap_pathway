@@ -1,0 +1,58 @@
+#logo{
+    width: 300px;
+    color: black;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E5E7Eb;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    font: 600;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-right: 300px;
+}
+
+body{
+    background-color: #F8F7F2;
+  color: #111827;
+}
+
+#new_tracking{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    background-color: #FFFFFF;
+    border: 1px soild #8f5fdd;
+}
+
+#new_tracking input, select, textarea, button{
+  padding: 14px 16px;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #F9FAFB;
+  color: #111827;
+  margin: 10px;
+
+}
+
